@@ -4,26 +4,31 @@ body {
   
   img {
     height: 80px;
+    display: flex;
+    order: 2;
   }
   
   #navbar-one {
     height: 60px;
     padding: 10px;
     background-color: lightgray;
+    display: flex;
   }
   
   #navbar-two {
     height: 120px;
     padding: 10px;
     background-color: whitesmoke;
+    display: flex;
   }
   
   .item {
     margin: 10px;
+    padding: 20px;
   }
   
   .album {
-    margin: 0 50px;
+    margin: 0 100px;
   }
   
   #circle {
@@ -31,4 +36,5 @@ body {
     width: 50px;
     background-color: green;
     border-radius: 50%;
+    justify-self: flex-start;
   }

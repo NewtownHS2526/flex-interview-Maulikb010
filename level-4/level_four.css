@@ -17,6 +17,8 @@ body {
     padding: 10px;
     border-style: solid;
     border-color: green;
+    display: inline-flex;
+    flex-direction: row;
   }
   
   .container .item {
@@ -24,3 +26,10 @@ body {
     padding: 5px;
     width: 250px;
   }
+
+p{
+  align-self: start;
+}
+.title{
+  justify-self: top;
+}
